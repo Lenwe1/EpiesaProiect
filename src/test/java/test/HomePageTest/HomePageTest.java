@@ -11,6 +11,15 @@ public class HomePageTest extends BaseTest {
     public void MyAccount(){
 //        homePage.clickMyAccount();
 //        homePage.clickNewAccount();
+        homePage.clickPieseUniversale();
+        homePage.clickRotiMeniu();
+        sleep(1000);
+        homePage.Anvelope();
+        homePage.addCartAnvelope();
+        sleep(1000);
+        homePage.viewCosulMeu();
+        sleep(1000);
+
     }
 
 }
