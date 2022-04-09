@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="testng" verbose="1">
+    <test name="PositiveTest">
+        <classes>
+            <class name="test.HomePageTest.HomePageTest">
+            </class>
+
+            <class name="test.CreateAccountTest.CreateAccountTest">
+            </class>
+
+            <class name="test.ClickFooterTest.ClickFooterTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
